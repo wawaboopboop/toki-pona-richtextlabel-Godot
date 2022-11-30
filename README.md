@@ -9,7 +9,7 @@ A custom RichTextLabel Node which translates toki pona words written in regular 
 * Magic! Your text is now appearing in a sitelen pona pixel font!
 * Other features:
   * use brackets encapsulating ``(ALL-CAPS-TEXT)`` to create a cartouche (box) around words that should appear in romanized/latin characters, like proper names. Use a dash for spaces(Examples: `ma (KANATA)`, `jan (JOHN)`)
-  * use ``pi`` and ``_`` to start and stop the underline-style pi (Example: ``lipu pi toki pona _ ``
+  * use ``pi`` and ``_`` to start and stop the underline-style pi (Example: ``lipu pi toki pona _ `` (the space is important, pretend '_' is like an invisible extra word/particle)
   * there are a handful of combined glyphs included, which are detected with a dash. (Example: ``toki-pona``). The ones I added were particular to te project I was working on, but you could always add your own by checking the dictionary in toki_pona_richtextlabel.gd and modifying the bitmap font! (see link to bitmap font creator readme below)
   
 ## Attribution
